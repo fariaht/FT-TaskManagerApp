@@ -40,7 +40,6 @@ export class AddTaskComponent {
     return this.taskForm.get('progress_level')!;
   };
 
-
   onSubmit() {
     console.log(this.taskForm.value);
     this.taskForm.reset();
